@@ -1,101 +1,94 @@
-*{
-    margin: 0px;
+* {
+    margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    
+    box-sizing: border-box;
 }
-body{
+
+body {
     background-color: rgb(20, 20, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
 }
-#box{
+
+#box {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 100px;
-    background-color:hsl(0, 0%, 15%);
+    background-color: hsl(0, 0%, 15%);
     padding: 40px 20px;
     border-radius: 12px;
-    margin-left: 500px;
-    margin-right: 500px;
-    border-color: white;
+    max-width: 400px; /* Set a max width */
+    width: 90%; /* Makes it responsive */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    
 }
-.yash{
+
+.yash {
     border-radius: 50px;
     height: 100px;
     width: 100px;
-    
-
 }
-.links{
+
+.links {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    gap: 10px; /* Space between buttons */
 }
 
-a{
+a {
     text-decoration: none;
     text-align: center;
-    margin-top: 20px;
-   color:hsl(0, 0%, 100%) ; 
-
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 20%);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
 }
-h2{
+
+h2 {
     margin-top: 20px;
     text-align: center;
     font-size: 25px;
-   color:  hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%);
 }
-h3{
+
+h3 {
     text-align: center;
     margin-top: 10px;
     font-size: 14px;
-    color:  hsl(75, 94%, 57%);
-}
-h4{
-    margin-top: 20px;
-    color:  hsl(0, 0%, 70%)
+    color: hsl(75, 94%, 57%);
 }
 
-.github{
-    border: 1px;
-    background-color: hsl(0, 0%, 20%);
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    background-color: hsl(0%,0%,20%);
+h4 {
+    margin-top: 20px;
+    color: hsl(0, 0%, 70%);
+    text-align: center;
+    
+    font-size: 14px;
 }
-.Linkdin{
-    border: 1px;
-    background-color: hsl(0, 0%, 20%);
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    background-color: hsl(0%,0%,20%);
-}
-.youtube{
-    border: 1px;
-    background-color: hsl(0, 0%, 20%);
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    background-color: hsl(0%,0%,20%);
-}
-.Instagram{
-    border: 1px;
-    background-color: hsl(0, 0%, 20%);
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    background-color: hsl(0%,0%,20%);
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    #box {
+        padding: 20px 10px;
+        margin-top: 20px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3, h4 {
+        font-size: 12px;
+    }
+
+    a {
+        font-size: 14px;
+    }
 }
