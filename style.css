@@ -65,14 +65,8 @@ h4{
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     padding: 10px;
-    background-color: hsl(0%,0%,20%);
-}
-.FrontedMentor{
-    border: 1px;
-    background-color: hsl(0, 0%, 20%);
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     background-color: hsl(0%,0%,20%);
 }
 .Linkdin{
@@ -81,6 +75,8 @@ h4{
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     background-color: hsl(0%,0%,20%);
 }
 .youtube{
@@ -89,6 +85,8 @@ h4{
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     background-color: hsl(0%,0%,20%);
 }
 .Instagram{
@@ -97,5 +95,7 @@ h4{
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     background-color: hsl(0%,0%,20%);
 }
